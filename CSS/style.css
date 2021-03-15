@@ -4,6 +4,8 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    font-family: 'Exo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
 .logo {
@@ -20,27 +22,49 @@
 nav {
     width: 73%;
     padding: 1%;
+    height: 50px;
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+    margin-left: auto;
+    display: inline;
+    justify-content: right;
+    background-color: black;
+    color: white;
 }
 
 #navUL {
-    list-style-type: none;
-    width: 50%;
-    margin-left: auto;
+   
 }
 /*Hero Image Content*/
 
 .heroImg {
     height: 600px;
-    padding: 25px;
+    padding: 15px;
+    font-family: 'Exo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0E1011;
+    display: inline-block;
+    justify-content: flex-start;
 }
 
 #heroimage {
     height: 300px;
+    display: inline-block;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    display: inline;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-family: Raleway;
+    font-weight: 600;
 }
 
 /*Footer*/
@@ -64,4 +88,5 @@ footer {
 #footerUL {
     list-style: none;
     display: inline-block;
+    display: inline;
 }
