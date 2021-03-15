@@ -1,3 +1,4 @@
+
 /*Navigation*/
 
 .inline-block {
@@ -11,21 +12,30 @@
     text-align: center;
 }
 
+#navLogo {
+    width: 30px;
+    height: 30px;
+}
+
 nav {
     width: 73%;
     padding: 1%;
 }
 
-.navUL {
+#navUL {
     list-style-type: none;
     width: 50%;
-    margin-left: 0;
+    margin-left: auto;
 }
 /*Hero Image Content*/
 
 .heroImg {
     height: 600px;
     padding: 25px;
+}
+
+#heroimage {
+    height: 300px;
 }
 
 .content {
@@ -37,13 +47,21 @@ nav {
 
 footer {
     background-color: #373738;
+    color: #ffffff;
     padding: 25px;
-    text-align: right;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+
 }
 
-.footerUL {
+#footerUL {
     list-style: none;
     display: inline-block;
-    vertical-align: top;
-    padding: 12.5px;
 }
